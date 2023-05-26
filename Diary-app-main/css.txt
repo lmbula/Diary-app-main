@@ -1,0 +1,77 @@
+/* .navbar {
+  background: black;
+}
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+.search-bar {
+  width: 300px;
+}
+.search-btn {
+  border: 0;
+  background: transparent;
+  color: pink;
+}
+.search-btn:hover {
+  background: pink;
+  color: white;
+}
+.section-diary {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1020px;
+}
+.section-diary h1 {
+  padding-top: 20px;
+  padding-left: 350px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.input-container {
+  height: 20rem;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+}
+
+.stories-container h2{
+ padding-top: 20px;
+ text-align: center;
+}
+.underline{
+  height: 0.01rem;
+  width: 30rem;
+  background: lightpink;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.story-sctn{
+ height: 10rem;
+ width: 20rem;
+ margin:5px;
+ display:inline-flex;
+ border-style: solid;
+ border-width: thin;
+ border-color: lightgray;
+}
+.delete-btn{
+  background: transparent;
+  color: pink;
+  margin-top: 8rem;
+  border: 0px;
+}
+.delete-btn:hover{
+ background: pink;
+ color: white;
+}
+.story-title{
+ padding-left: 20px;
+ display:inline-block;
+}
+.story-heading{
+ padding-top: 10px;
+}
+
+ */

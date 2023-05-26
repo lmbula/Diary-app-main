@@ -1,0 +1,140 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&family=Pacifico&display=swap');
+
+body {
+  background-color: #faeee7;
+}
+.navbar {
+  background: #ffc6c7;
+  color: #33272a;
+  font-family: 'Pacifico', cursive;
+}
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+.search-bar {
+  border: 0px;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #faeee7;
+  padding-left: 1.5rem;
+}
+.search-bar:focus {
+  outline: none;
+}
+.search-btn {
+  border: 0px;
+  background: #ff8ba7;
+  color: white;
+}
+.search-btn:hover {
+  background: #faeee7;
+  color: #33272a;
+}
+.section-diary {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1020px;
+}
+.section-diary h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #33272a;
+  font-family: 'Pacifico', cursive;
+}
+#storyForm {
+  height: 15rem;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+}
+#storyForm p {
+  padding-left: 10px;
+  font-family: 'Pacifico';
+  text-transform: capitalize;
+}
+#storyForm button {
+  display: block;
+  margin: 0 auto;
+  background: #ff8ba7;
+  color: white;
+  border: 0px;
+  font-family: 'Great Vibes', cursive;
+}
+#storyForm button:hover {
+  background: #faeee7;
+  color: #33272a;
+}
+
+.form-control {
+  border-style: none;
+  background: #faeee7;
+}
+.form-control::placeholder {
+  font-family: 'Great Vibes', cursive;
+}
+#idText {
+  padding-bottom: 5rem;
+}
+#idTitle{
+  margin-bottom: 10px;
+}
+
+/* stories section css */
+.stories-container h2 {
+  padding-top: 20px;
+  text-align: center;
+  color: #33272a;
+  font-family: 'Pacifico', cursive;
+}
+.underline {
+  height: 0.01rem;
+  width: 30rem;
+  background: #ff8ba7;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.story-sctn {
+  height: 10rem;
+  width: 20rem;
+  margin: 5px;
+  color: #33272a;
+  font-family: 'Great Vibes', cursive;
+  display: inline-flex;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgray;
+  position: relative; /* Add position: relative */
+}
+.delete-sctn {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+}
+.delete-btn {
+  background: #ff8ba7;
+  color: white;
+  border: none;
+  margin-top: auto;
+  margin-bottom: 10px;
+  font-family: 'Great Vibes', cursive;
+  transition: transform 0.3s ease;
+}
+.delete-btn:hover {
+  background: #faeee7;
+  color: #33272a;
+  transform: rotate(15deg);
+}
+.story-title {
+  padding-left: 20px;
+  display: inline-block;
+}
+.story-heading {
+  padding-top: 10px;
+}
+
