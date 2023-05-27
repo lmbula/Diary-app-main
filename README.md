@@ -46,4 +46,30 @@ DisplayStories() function
  - Then the if statement breaks once this is done
  - outside of the for loop the program will update the stories array in the local storage hereby removing the story that met the condition
  - Then the program will invoke the DisplayStories function to update the stories that appear on the screen
+
+5.The event listerner for the search button. 
+ - It declares a variable for the search button form 
+ -The search button from adds an event listener when the user clicks submit 
+ - e.preventDefault method is called to prevent the page from refreshing when the user clicks submit
+ - A variable searchTerm is declared to get the value inputed in the search bar
+ - a variable is declared matchingItems which calls the searchLocalStorageItems and takes the searchTerm as an argument
+ - displaySearchResults function is invoked and takes the matchingItems variable as an argument , which is the vakue that matched the item searched from the localstorage
+
+6.a function searchLocalStorageItem which is invoked in the eventlistener
+ - The function declares a variable matchingItems as an empty array
+ - a for loop is created to loop through the stories array which is tha array of stories stored in the localstorage
+ - a var story is declared inside the for loop to refer to a single story 
+ - an if statement takes the value of the story/title as conditions and checks to see if those values match the search term typed in by the user
+ - if it meets the consition it pushes the story to the matchingItems array created.
+ - and the for loop returns the matchingItems
+
+7. a function function displaySearchResults(results) which is invoked in the event listener
+ - it first clears the html of the previously searched results and it does this in the storyDiv where we add our searched item dynamically.
+ - an if statement is called which has a consition that checks our results parameter which ia na array, it checks whether the array is empty
+ - if it is ,it attaches a text content to the storyDiv saying No matching items found.
+ - the program the declares a variable displayStory which is the results array and calls the map method which maps a story html and takes the title/story of the story matched 
+ - it then declares the displayStory variable and joins it with an empty string
+ - the program then adds the html to the storyDiv
+ - it calls on document.getElementById("searchInput").value = ""; to clear the search bar after the user clicks the submit button
+ 
  
